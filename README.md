@@ -1,2 +1,2 @@
 # shareholdergame-core
-The core of the game "Shareholder"
+The core module of the game "Shareholder"
