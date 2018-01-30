@@ -1,0 +1,53 @@
+{
+  "variantName" : "variant.name.classic",
+  "priceScale" : {
+    "stepSize" : 10,
+    "minPrice" : 10,
+    "maxPrice" : 250
+  },
+  "shares" : [
+    {
+      "id" : 1,
+      "color" : "share.color.blue"
+    },
+    {
+      "id" : 2,
+      "color" : "share.color.red"
+    },
+    {
+      "id" : 3,
+      "color" : "share.color.yellow"
+    },
+    {
+      "id" : 4,
+      "color" : "share.color.green"
+    }
+  ],
+  "cardSet" : [
+    {
+      "cardGroupName" : "card.group.big",
+      "cards" : [
+        {
+          "id" : "A10011",
+          "operations" : [
+            {
+              "operation" : "ADD",
+              "value" : 100,
+              "shareId" : 1
+            },
+            {
+              "operation" : "SUB",
+              "value" : 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardGroupName" : "card.group.small",
+      "cards" : [
+
+      ]
+    }
+  ]
+}
