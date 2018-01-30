@@ -29,7 +29,7 @@ public class Game {
 
     static class GameBuilder implements Builder<Game> {
 
-        
+
 
         public Game build() {
             return new Game(this);
