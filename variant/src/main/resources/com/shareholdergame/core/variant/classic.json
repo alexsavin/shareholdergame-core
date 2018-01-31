@@ -1,52 +1,861 @@
 {
-  "variantName" : "variant.name.classic",
-  "priceScale" : {
-    "stepSize" : 10,
-    "minPrice" : 10,
-    "maxPrice" : 250
+  "name": "variant.name.classic",
+  "priceScale": {
+    "stepSize": 10,
+    "minPrice": 10,
+    "maxPrice": 250
   },
-  "shares" : [
+  "shares": [
     {
-      "id" : 1,
-      "color" : "share.color.blue"
+      "id": 1,
+      "color": "share.color.blue"
     },
     {
-      "id" : 2,
-      "color" : "share.color.red"
+      "id": 2,
+      "color": "share.color.red"
     },
     {
-      "id" : 3,
-      "color" : "share.color.yellow"
+      "id": 3,
+      "color": "share.color.yellow"
     },
     {
-      "id" : 4,
-      "color" : "share.color.green"
+      "id": 4,
+      "color": "share.color.green"
     }
   ],
-  "cardSet" : [
+  "cardSet": [
     {
-      "cardGroupName" : "card.group.big",
-      "cards" : [
+      "cardGroupName": "card.group.big",
+      "cards": [
         {
-          "id" : "A10011",
-          "operations" : [
+          "id": 110011,
+          "operations": [
             {
-              "operation" : "ADD",
-              "value" : 100,
-              "shareId" : 1
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 1
             },
             {
-              "operation" : "SUB",
-              "value" : 30
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110012,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 1
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110013,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 1
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110021,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 2
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110022,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 2
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110023,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 2
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110031,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 3
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110032,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 3
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110033,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 3
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110041,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 4
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110042,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 4
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 110043,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 100,
+              "shareId": 4
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 20
+            },
+            {
+              "operation": "SUB",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 120011,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2,
+              "shareId": 1
+            },
+            {
+              "operation": "DIV",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 120021,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2,
+              "shareId": 2
+            },
+            {
+              "operation": "DIV",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 120031,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2,
+              "shareId": 3
+            },
+            {
+              "operation": "DIV",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 120041,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2,
+              "shareId": 4
+            },
+            {
+              "operation": "DIV",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 120111,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2
+            },
+            {
+              "operation": "DIV",
+              "value": 2,
+              "shareId": 1
+            }
+          ]
+        },
+        {
+          "id": 120121,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2
+            },
+            {
+              "operation": "DIV",
+              "value": 2,
+              "shareId": 2
+            }
+          ]
+        },
+        {
+          "id": 120131,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2
+            },
+            {
+              "operation": "DIV",
+              "value": 2,
+              "shareId": 3
+            }
+          ]
+        },
+        {
+          "id": 120141,
+          "operations": [
+            {
+              "operation": "MUL",
+              "value": 2
+            },
+            {
+              "operation": "DIV",
+              "value": 2,
+              "shareId": 4
             }
           ]
         }
       ]
     },
     {
-      "cardGroupName" : "card.group.small",
-      "cards" : [
-
+      "cardGroupName": "card.group.small",
+      "cards": [
+        {
+          "id": 230011,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30,
+              "shareId": 1
+            },
+            {
+              "operation": "SUB",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "id": 240011,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 40,
+              "shareId": 1
+            },
+            {
+              "operation": "SUB",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "id": 250011,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50,
+              "shareId": 1
+            },
+            {
+              "operation": "SUB",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 260011,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60,
+              "shareId": 1
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "id": 230021,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30,
+              "shareId": 2
+            },
+            {
+              "operation": "SUB",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "id": 240021,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 40,
+              "shareId": 2
+            },
+            {
+              "operation": "SUB",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "id": 250021,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50,
+              "shareId": 2
+            },
+            {
+              "operation": "SUB",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 260021,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60,
+              "shareId": 2
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "id": 230031,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30,
+              "shareId": 3
+            },
+            {
+              "operation": "SUB",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "id": 240031,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 40,
+              "shareId": 3
+            },
+            {
+              "operation": "SUB",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "id": 250031,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50,
+              "shareId": 3
+            },
+            {
+              "operation": "SUB",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 260031,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60,
+              "shareId": 3
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "id": 230041,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30,
+              "shareId": 4
+            },
+            {
+              "operation": "SUB",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "id": 240041,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 40,
+              "shareId": 4
+            },
+            {
+              "operation": "SUB",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "id": 250041,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50,
+              "shareId": 4
+            },
+            {
+              "operation": "SUB",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 260041,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60,
+              "shareId": 4
+            },
+            {
+              "operation": "SUB",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "id": 230111,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60
+            },
+            {
+              "operation": "SUB",
+              "value": 30,
+              "shareId": 1
+            }
+          ]
+        },
+        {
+          "id": 240111,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 40,
+              "shareId": 1
+            }
+          ]
+        },
+        {
+          "id": 250111,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 50,
+              "shareId": 1
+            }
+          ]
+        },
+        {
+          "id": 260111,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 60,
+              "shareId": 1
+            }
+          ]
+        },
+        {
+          "id": 230121,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60
+            },
+            {
+              "operation": "SUB",
+              "value": 30,
+              "shareId": 2
+            }
+          ]
+        },
+        {
+          "id": 240121,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 40,
+              "shareId": 2
+            }
+          ]
+        },
+        {
+          "id": 250121,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 50,
+              "shareId": 2
+            }
+          ]
+        },
+        {
+          "id": 260121,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 60,
+              "shareId": 2
+            }
+          ]
+        },
+        {
+          "id": 230131,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60
+            },
+            {
+              "operation": "SUB",
+              "value": 30,
+              "shareId": 3
+            }
+          ]
+        },
+        {
+          "id": 240131,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 40,
+              "shareId": 3
+            }
+          ]
+        },
+        {
+          "id": 250131,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 50,
+              "shareId": 3
+            }
+          ]
+        },
+        {
+          "id": 260131,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 60,
+              "shareId": 3
+            }
+          ]
+        },
+        {
+          "id": 230141,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 60
+            },
+            {
+              "operation": "SUB",
+              "value": 30,
+              "shareId": 4
+            }
+          ]
+        },
+        {
+          "id": 240141,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 40,
+              "shareId": 4
+            }
+          ]
+        },
+        {
+          "id": 250141,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 50
+            },
+            {
+              "operation": "SUB",
+              "value": 50,
+              "shareId": 4
+            }
+          ]
+        },
+        {
+          "id": 260141,
+          "operations": [
+            {
+              "operation": "ADD",
+              "value": 30
+            },
+            {
+              "operation": "SUB",
+              "value": 60,
+              "shareId": 4
+            }
+          ]
+        }
       ]
     }
   ]
