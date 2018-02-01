@@ -5,5 +5,5 @@ package com.shareholdergame.core.variant;
  *
  * @author Aliaksandr Savin
  */
-public class Operation {
+public class CardOperation {
 }
